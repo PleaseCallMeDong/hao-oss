@@ -1,0 +1,6 @@
+server:
+  port: 8088
+
+file:
+  #文件保存路径(xxxxx/20210623/1/xxxx.xml
+  fileSavePath: D:\test\sx

@@ -1,0 +1,28 @@
+server:
+  servlet:
+    context-path: /api
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+
+#日志
+logging:
+  file:
+    path: log
+
+spring:
+  profiles:
+    active: test
+  application:
+    name: haoOss
+  output:
+    ansi:
+      enabled: always
+  main:
+    allow-bean-definition-overriding: true
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+      enabled: true
